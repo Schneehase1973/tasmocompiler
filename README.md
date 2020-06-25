@@ -100,22 +100,22 @@ The configuration options are limited on purpose. I don't want to _overload_ the
 #ifdef MQTT_HOST
   #undef MQTT_HOST
 #endif
-#define MQTT_HOST               "mqtt.yourhost.iot"
+#define MQTT_HOST               "91.136.134.31"
 
 #ifdef MQTT_PORT
   #undef MQTT_PORT
 #endif
-#define MQTT_PORT               1883
+#define MQTT_PORT               1875
 
 #ifdef MQTT_USER
   #undef MQTT_USER
 #endif
-#define MQTT_USER            "mqttuser"
+#define MQTT_USER            "DVES_USER"
 
 #ifdef MQTT_PASS
   #undef MQTT_PASS
 #endif
-#define MQTT_PASS            "mqttpassword"
+#define MQTT_PASS            "AStern-181073"
 ```
 
 To define _Friendly name_ for your device you have to put these lines in _Custom parametrs_ field:
@@ -134,17 +134,17 @@ Let's assume that you want to _compile in_ information about your ntp server, yo
 #ifdef NTP_SERVER1
   #undef NTP_SERVER1
 #endif
-#define NTP_SERVER1             "ntp.yourserver.iot"
+#define NTP_SERVER1             "91.136.134.2"
 
 #ifdef LATITUDE
   #undef LATITUDE
 #endif
-#define LATITUDE               34.4348
+#define LATITUDE               51.436774400000004
 
 #ifdef LONGITUDE
   #undef LONGITUDE
 #endif
-#define LONGITUDE              10.0508
+#define LONGITUDE              7.565607419381303
 
 #ifdef APP_TIMEZONE
   #undef APP_TIMEZONE
